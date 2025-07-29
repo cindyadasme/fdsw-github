@@ -2,28 +2,58 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.logo {
+  width: 220px;
+}
+
 /* Hero Section */
 
+header {
+  position: relative;
+  color: #fff;
+}
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg-hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  
+}
+
+#Hero-Section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#Hero-Section .container {
+  position: relative;
+  z-index: 2;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Secciones */
 
 #Acerca-de-mi {
-  scroll-margin-top: 80px; /* volvemos al valor original */
+  scroll-margin-top: 80px;
 }
 
-/* Ajuste específico para Mis trabajos */
 #Mis-trabajos {
-  scroll-margin-top: 40px; /* menos margen porque ya tiene padding p-5 */
+  scroll-margin-top: 40px;
 }
 
 #Contacto {
-  scroll-margin-top: 80px; /* menos margen porque ya tiene padding p-5 */
+  scroll-margin-top: 80px;
 }
 
 
