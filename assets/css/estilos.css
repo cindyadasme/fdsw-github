@@ -11,6 +11,22 @@ body {
   background-position: left;
 }
 
+/* Secciones */
+
+#Acerca-de-mi {
+  scroll-margin-top: 80px; /* volvemos al valor original */
+}
+
+/* Ajuste específico para Mis trabajos */
+#Mis-trabajos {
+  scroll-margin-top: 40px; /* menos margen porque ya tiene padding p-5 */
+}
+
+#Contacto {
+  scroll-margin-top: 80px; /* menos margen porque ya tiene padding p-5 */
+}
+
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
