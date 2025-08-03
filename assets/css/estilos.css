@@ -38,7 +38,7 @@ header {
 }
 
 .btn-info {
-  background-color: #5bb7b6 !important;
+  background-color: #5bb7b6 !important; /* Color de fondo del botón */
 }
 
 .btn-outline-info {
